@@ -1,0 +1,19 @@
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre-wrap;
+    margin: 1em 0;
+    overflow: auto;
+}
+
+#wideimage {
+    display: block;
+}
+#smallimage {
+    display: none;
+}
+
+@media screen and (max-width: 480px) { 
+    #wideimage { display: none }
+    #smallimage { display: block; }
+}
