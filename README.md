@@ -1,8 +1,7 @@
 "# smcmpnt 20181008" 
 
 Update: October 08, 2018
-
-
+```
  movement from column to column by ENTER key (like TAB)
  multiline wordwrap column titles (partly is transfered from TBitDBGrid - Ilya Andreev, ilya_andreev@geocities.com)
  record selection using the standard checkbox
@@ -26,3 +25,4 @@ Update: October 08, 2018
  event for column title drawing (standard TDBGrid component have the event for data cell drawing only)
  BiDiMode support for middle-east and far-east users
  Windows XP theme support
+```
